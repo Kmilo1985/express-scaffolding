@@ -25,7 +25,7 @@ This will create and run the Docker containers required to run the application.
 
 ``npm run docker:down``
 
-##Migrations
+## Migrations
 
 To run the database migrations, you can use the following command:
 
