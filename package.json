@@ -8,7 +8,9 @@
     "dev": "nodemon --exec ts-node server.ts",
     "format": "prettier --write .",
     "typeorm": "typeorm-ts-node-esm",
-    "migration:run": "npx typeorm-ts-node-esm migration:run -d ./app-data-source.ts"
+    "migration:run": "npx typeorm-ts-node-esm migration:run -d ./app-data-source.ts",
+    "docker:run": "cd compose && docker compose up -d",
+    "docker:down": "cd compose && docker compose down"
   },
   "author": "",
   "license": "ISC",
